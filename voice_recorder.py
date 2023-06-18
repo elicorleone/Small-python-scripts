@@ -7,4 +7,3 @@ record_voice = sounddevice.rec(int(seconds * fs), samplerate=fs, channels=2)
 sounddevice.wait()
 write("out.wav", fs, record_voice)
 
-
